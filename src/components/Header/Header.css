@@ -1,0 +1,166 @@
+.header {
+    background-color: rgb(36 41 47);
+    padding: 16px 20px;
+}
+
+.header__logo{
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+.header__link {
+    margin: 0px;
+    padding: 0px;
+    margin-right: 16px;
+}
+.header__label{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 3px;
+    margin-right: 17px;
+    min-width: 272px;
+    border: 1px solid rgba(204, 204, 204, 0.207);
+    background-color: rgb(36 41 47);
+}
+.header__input {
+    border:none;
+    color: rgba(255, 255, 255, 0.754);
+    outline: none;
+    background-color: rgb(36 41 47);
+    padding: 0 12px;
+    border-radius: 5px;
+    width: 246px;
+    height: 28px;
+    transition: ease all 300ms;
+    font-size: 14px;
+}
+
+.header__input:focus{
+    width: 523px;
+    background-color: #ffffff;
+    color:black;
+}
+.header__input:focus::placeholder{
+    color: black;
+}
+.header__input::placeholder{
+    color: rgba(255, 255, 255, 0.696);
+    font-size: 14px;
+}
+
+
+
+.header__list {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.header__item {
+    margin-right: 16px;
+}
+.header__nav-link{
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+.header__nav-link:hover{
+    color: white;
+    opacity: 70%;
+}
+
+.header__dropdown-text{
+    font-size: 14px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    padding: 8px 16px;
+    margin: 0 auto;
+}
+.header__dropdown-link{
+    font-size: 12px;
+}
+.header__dropdown-list{
+    width: 180px;
+}
+.header__dropdown-btn{
+    margin: 0px;
+    padding: 0px;
+    margin: 8px 16px;
+    padding: 4px 8px;
+    font-size: 12px;
+    width: 146px;
+    border: 1px solid #161B22;
+    display:flex;
+    justify-content: start;
+    align-items: center;
+}
+.header__dropdown-btn:hover{
+    color: #218bff;
+    border: 1px solid #161B22;
+}
+.header__dropdown-item{
+    font-size: 14px;
+}
+
+.header__dropdown-item:hover{
+    color:white;
+    background-color:#218bff ;
+}
+
+.header__plusDropdown{
+    margin-right: 18px;
+    width: 28px;
+}
+.header__plusDropdown-link{
+    font-size: 13px;
+}
+.header__plusDropdown-icon{
+    font-size: 20px;
+}
+.header__notification{
+    margin-right: 13px;
+}
+.header__notification-icon{
+    color: white;
+}
+.header__wrapper-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-items {
+    width:100%;
+    overflow: auto;
+    max-height: 300px;
+    z-index: 30;
+    top: 32px;
+    background-color: #fff;
+  }
+
+  .search-item {
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .header__input {
+      width: 250px;
+    }
+
+    .header__input:focus {
+      width: 350px;
+    }
+  }
+  @media only screen and (max-width: 850px) {
+    .header__input {
+      width: 200px;
+    }
+
+    .header__input:focus {
+      width: 250px;
+    }
+  }

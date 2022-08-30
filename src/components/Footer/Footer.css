@@ -1,0 +1,20 @@
+.footer{
+  padding: 40px 16px 48px;
+  max-width:1280px
+}
+.footer__icon{
+  width: 24px;
+  height: 24px;
+}
+.footer__desc{
+  font-size: 12px;
+}
+.footer__icon-link{
+  margin-right: 8px;
+}
+.footer__left{
+  margin-right: 71px;
+}
+.footer__links{
+  font-size: 12px;
+}

@@ -1,0 +1,60 @@
+.search-repo {
+  width: 500px !important;
+  padding: 0 10px;
+  height: 34px;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.repo-filter{
+  height: 38px;
+}
+.search-repo::placeholder{
+  font-size: 14px;
+}
+
+.star-btn {
+  font-size: 14px;
+  padding: 0 25px;
+}
+
+.updated {
+  font-size: 14px;
+  color: #545454
+}
+
+.repos-select{
+  padding: 0;
+  width: 80px;
+  height: 32px;
+  font-size: 13px;
+  padding-left: 12px;
+  font-weight: 500;
+}
+.form-select-2{
+  width: 100px;
+}
+.create-repo{
+  padding: 4px 6px 4px 12px;
+  width: 90px;
+  height: 33px;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+
+
+@media only screen and (max-width:768px) {
+  .repos-top {
+    flex-direction: column-reverse;
+  }
+
+  .create-repo {
+    width: 100%;
+    justify-content: center !important;
+  }
+
+  .search-repo {
+    min-width: 100%;
+  }
+}

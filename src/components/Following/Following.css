@@ -1,0 +1,9 @@
+.item-link:hover {
+  color: #0969DA !important;
+  cursor: pointer
+}
+
+.follow-btn {
+  font-weight: 600;
+  font-size: 12px;
+}

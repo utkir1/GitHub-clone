@@ -1,0 +1,67 @@
+.sidebar__img{
+  width: 296px;
+  height: 296px;
+}
+.sidebar__wrapper{
+    height: 100%;
+}
+.sidebar__img-wrapper{
+    top: -30px;
+    z-index: 5;
+}
+.sidebar__datas{
+  padding-top: 266px;
+}
+.sidebar__name{
+    font-size: 24px;
+    margin: 0;
+}
+.sidebar__username{
+  margin: 0;
+   font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+.sidebar__btn{
+    background-color: rgb(246 248 250);
+    padding: 5px 16px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.sidebar__btn:hover{
+  background-color: rgb(242, 242, 242);
+}
+.sidebar__followers{
+  font-size: 15px;
+  font-weight: 500;
+}
+.sidebar__foldesc{
+  font-size: 14px;
+}
+.sidebar__foll-link{
+  color: black;
+}
+.sidebar__foll-link:hover{
+  color: #0960DA;
+}
+.sidebar__location{
+  font-size: 14px;
+}
+.sidebar__twitter{
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+.sidebar__twitter:hover{
+  color: #0960DA;
+}
+
+
+
+@media only screen and (max-width:768px){
+  .sidebar__img-wrapper{
+    top: 0px;
+    z-index: 5;
+   }
+}

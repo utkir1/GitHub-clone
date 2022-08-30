@@ -1,0 +1,27 @@
+.over__desc{
+  font-size: 12px;
+}
+.over__item-span{
+  font-size: 12px;
+}
+.over__item-link{
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.over__item-desc{
+  font-size: 12px;
+}
+.over__repo-dot{
+    width: 12px;
+    height:12px;
+    background-color: rgba(255, 255, 0, 0.633);
+    display: block;
+}
+.over__repo-lang{
+    font-size: 12px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+.over__repo-star{
+  font-size: 12px;
+}

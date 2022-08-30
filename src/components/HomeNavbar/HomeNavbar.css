@@ -1,0 +1,42 @@
+.homenavbar{
+  z-index: 3;
+}
+.homenavbar__container{
+  max-width: 1280px;
+  padding: 0 32px;
+}
+@media only screen and (min-width:768px){
+  .layout__main{
+    overflow-x: hidden;
+  }
+}
+.navbar-item{
+  padding: 10px 0px;
+  position: relative;
+}
+.home__nav{
+  padding: 0 6px;
+}
+.navbar__layout-main{
+  padding: 0 32px;
+}
+.navbar__link{
+  font-size: 14px;
+  padding: 6px;
+  border-radius: 8px;
+}
+.navbar__active::after{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color:  #FD8C73;
+  position: absolute;
+  bottom: 0;
+}
+.navbar__link:hover{
+  background-color: rgb(236, 236, 236);
+}
+.active{
+  border-color: #FD8C73;
+}
