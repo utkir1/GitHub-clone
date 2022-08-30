@@ -32,7 +32,7 @@ const Header = () => {
             />
         </a>
         <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <form className="search-box position-relative">
+        <div className="search-box position-relative">
               <label className="header__label">
                 <input
                   className="header__input"
@@ -54,7 +54,7 @@ const Header = () => {
               }): ""}
 
             </ul>
-            </form>
+            </div>
           <ul className="navbar-nav me-auto header__list mb-lg-0">
             <li className="nav-item header__item">
               <a className=" header__nav-link"  href="#">
